@@ -1,7 +1,14 @@
 """
 INTRODUCCION A PYTHON A
 
+-------------
+Bibliografía:
+
 Link:  https://ingsosa.com/tipos-de-datos-en-python/
+Link:  https://j2logo.com/python/tutorial/
+
+
+-------------
 
 --La forma para comentar en python es utilizando triple comilla doble.
 
