@@ -1,7 +1,12 @@
-<h2 align = "center"> Introducción a Python </h3>
+<h2 align = "center"> Introducción a Python 🐍 </h3> 
+
+### Lenguaje
+
+  <img height="30" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg">
 
 
-### Características básicas del lenguaje
+
+###  Características básicas del lenguaje
 
 * Introducción a Python
 * Variables
