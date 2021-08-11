@@ -27,11 +27,15 @@
 * Tipo set (revisar)
 * Tipo dict
 * Tipo str
+* Array
 
 ### Lógica de programa
 
 * Funciones
+* Recursividad
 * Espacios de nombres, módulos y paquetes
+
+### Programación orientada a objetos
 * Programación orientada a objetos en Python
 
 ### Otros (revisar) 
