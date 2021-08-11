@@ -29,6 +29,12 @@ print(miVariable)
 
 print("------------------------------------")
 
+#Para destacar otra forma de mostrtar las variables es ingresando una f delante de la
+#cadena de texto y con llaves {} se puede incluir las variables
+
+variable = " VARIABLE"
+print(f'Nueva forma de inmprimir una {variable}')
+
 """
 Declaracíon de Variables
 
@@ -291,3 +297,18 @@ not       || Devuelve True si alguno de los operandos False	    ||not a
 
 
 """
+
+"""
+Ingreso de datos
+
+-- El ingreso de datos lo vamos a realizar con la funcion 'Input()'
+
+"""
+
+# Funcion Input -- Nos permite ingresar valores a una variable
+
+resultado  = input('Ingresa tu edad: ')
+
+print("La edad es:", resultado)
+
+print("Fin del programa")
