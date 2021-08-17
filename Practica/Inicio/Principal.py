@@ -69,17 +69,32 @@ Operaciones simples
 num1 = 1
 num2 = 2
 
+#suma
 suma = num1 + num2
 print(suma)
 
+#resta
 resta = num1 - num2
 print(resta)
 
+#multiplicacion
 multiplicacion = num1 * num2
 print(multiplicacion)
 
+#division
 division = num1 / num2
 print(division)
+
+# residuo %
+residuo = num1 % num2
+
+print(f'Resultado residuo de una division: {residuo}')
+
+
+# exponente
+
+exponente = num1 ** num2
+print(f'Resultado exponente: {exponente}')
 
 
 ##Otra forma de hacerlas es
