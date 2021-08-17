@@ -41,7 +41,7 @@
 
 <hr>
 
-### ⚜ Tipos de datos complejos
+### ⚜ Tipos de datos complejos (Colecciones)
 
   #### 1 | Introducción a Arreglos Unidimensionales
   📚<link>https://www.youtube.com/watch?v=3dHFZJILS0U&list=PLRFOqDrY-6nt8VYmaqEwowHFIcaUv9AOy</link>
