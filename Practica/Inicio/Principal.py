@@ -55,6 +55,12 @@ print(apellido)
 print(edad)
 print(altura)
 
+#En python existe el NONE que sería lo mismo que Null en Java
+
+miVariable1 = None
+#De esta forma indicamos que una variable es nula, no tiene contenido
+
+
 # Si quisiera saber que tipó de  dato trae una variable utilizo la 
 # funcion  'type()' dentro del print 
 
