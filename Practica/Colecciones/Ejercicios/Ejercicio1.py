@@ -24,6 +24,11 @@ for i in range(10):
     # ingrese por consola).
     # #Luego muestro por pantalla
     
+'''
+El tipo de dato 'range' es una lista inmutable de numeros (anteriormente era una funcion),
+es una sucesion de numeros, empieza en 0 y termina en n-1. 
+
+'''
 
 
 

@@ -49,3 +49,29 @@ for f in range(filas):
         matriz[f][c] = int(input("Elemento: [%d|%d] : " % (f,c)))
         #Pido por consola los numeros que quiera ingresar el usuario
 print (matriz, end=' ')
+
+
+'''
+Otra forma de realizar arrays bidimencionales. 
+Utilizacion de map y lambda
+'''
+
+a = [1,2,3,4,5];
+b = [5,4,3,2,1];
+
+c = list(map(lambda x,y : x + y, a,b))
+
+print("Resultado Suma: ",c)
+
+c = list(map(lambda x,y : x - y, a,b))
+
+print("Resultado Resa: ",c)
+
+c = list(map(lambda x,y : x * y, a,b))
+
+print("Resultado Multiplicacion: ",c)
+
+c = list(map(lambda x,y : x / y, a,b))
+
+print("Resultado Division: ",c)
+
