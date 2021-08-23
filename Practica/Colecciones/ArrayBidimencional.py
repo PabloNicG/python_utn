@@ -3,6 +3,8 @@ import random
 
 ''' 
 Array bidimencional con datos random
+
+Utilizaremos la biblioteca  numpy 
 '''
 
 #Declaro las filas y las columnas con datos de tamaño ya establecidos
@@ -75,3 +77,28 @@ c = list(map(lambda x,y : x / y, a,b))
 
 print("Resultado Division: ",c)
 
+'''
+Otra forma de crear una matriz aleatoria es con la funcion random de 'np'
+y randint
+'''
+
+n = 3
+m = 3
+
+'''
+Dentro de randint se coloca el rango de numeros que quiero, en este caso 
+entre 0 y 20, ademas se coloca el tamaño de la matriz con un size=(n,m).
+
+Randint devuelve un numero entero entre un rango especificado
+'''
+matriz = np.random.randint(0,20, size=(5,5))
+print(matriz)
+
+#Forma con entrada de datos de tamaño por consola
+
+n = int(input("Seleccione el tamaño de la matriz"))
+m = int(input("Seleccione el tamaño de la matriz"))
+
+matriz = np.random.randint(0,20, size=(n,m))
+
+print(matriz)
